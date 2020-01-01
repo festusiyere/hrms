@@ -1,0 +1,243 @@
+body::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  width: 10px;
+}
+
+.dashboard{
+  font-family: 'Cabin', sans-serif;
+}
+
+.card-home {
+  height: 421px;
+  overflow-y: scroll;
+}
+
+.card-home::-webkit-scrollbar {
+  width: 3px;
+}
+
+.card-home::-webkit-scrollbar-track {
+  width: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #d6d6d6;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  width: 5px;
+  height: 7px;
+}
+
+.company {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-box {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 190px;
+  position: relative;
+  background-color: white;
+  background: url("../../images/desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  padding: 5px 5px;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  -ms-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+}
+
+.hb1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  font-family: calibri, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hb3 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hb3 img {
+  height: 100%;
+}
+
+.hb4 {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.16;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.hb4 span {
+  font-weight: bold;
+}
+
+.hb5 {
+  color: #b6b3ae;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.hb6{
+  color: #b6b3ae;
+  margin: 35px 6px 6px;
+}
+
+.hb7{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dropdown-item:hover {
+  background: rgba(47, 167, 51, 0.05) !important;
+}
+
+.cc .card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+  -ms-box-shadow: 0px 0px 10px 3px rgba(183, 192, 206, 0.3);
+}
+
+.cc .card-body {
+  padding: 15px;
+}
+
+.cc .c {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+}
+
+.cc .cc2 {
+  color: #a4a4a4 !important;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.cc .cc3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0 15px;
+}
+
+.cc .cc5 {
+  padding: 4px;
+  border-radius: 10px;
+  background-color: rgba(155, 89, 182, 0.1);
+}
+
+.cc .cc6 {
+  color: #a4a4a4 !important;
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 10px 0 0px;
+}
+
+.cc .cc6 a {
+  color: #a4a4a4 !important;
+}
+
+.cc .cc6 a:hover {
+  color: #7c7c7c !important;
+}
+
+.cc .cc6 svg {
+  width: 16px;
+  height: 16px;
+  color: #2fa733;
+}
+
+.rr {
+  margin-bottom: 20px;
+}
+
+.finance {
+  background-color: rgba(231, 76, 60, 0.1) !important;
+}
+
+.attendance {
+  background-color: rgba(241, 196, 15, 0.1) !important;
+}
+
+.leave {
+  background-color: rgba(52, 152, 219, 0.1) !important;
+}
+
+.quick-links {
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(100, 121, 143, 0.302);
+  box-shadow: inset 0 0 0 1px rgba(100, 121, 143, 0.302);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #5f6368;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 30px;
+  padding: 0 12px;
+  margin-right: 8px;
+  max-width: 160px;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.quick-links:hover {
+  color: rgba(47, 167, 51, 0.616);
+    -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(147, 167, 51, 0.302);
+  box-shadow: inset 0 0 0 1px rgba(147, 167, 51, 0.302);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.quick-links:active {
+  color: #4a4a4b;
+    -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(100, 121, 143, 0.302);
+  box-shadow: inset 0 0 0 1px rgba(100, 121, 143, 0.302);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.quick-links svg {
+  width: 14px;
+  margin-right: 5px;
+}
